@@ -28,7 +28,7 @@ angular.module('app', [tippyAngular]);
 
 ## Native Attributes
 
-The majority of options listed on the [All Options](https://atomiks.github.io/tippyjs/all-options/) page have been implemented.
+The majority of options listed on the [All Props](https://atomiks.github.io/tippyjs/v6/all-props/) page have been implemented.
 
 Please ensure you pass them as kebab case. For example, `arrowType` should be implemented as:
 
