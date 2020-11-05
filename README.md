@@ -1,6 +1,6 @@
 # Tippy AngularJS
 
-AngularJS (v1) directive for [Tippy.js](https://github.com/atomiks/tippyjs) 3.
+AngularJS (v1) directive for [Tippy.js](https://github.com/atomiks/tippyjs) 6.
 
 ## Installation
 

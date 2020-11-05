@@ -16,7 +16,7 @@ const link: IDirectiveLinkFn = (scope, element, attrs, _, transclude) => transcl
     parent.appendChild(child)
   });
 
-  const instance = tippy.one(element[0].parentElement!, {
+  const instance = tippy(element[0].parentElement!, {
     content: parent
   });
 
@@ -52,7 +52,7 @@ const link: IDirectiveLinkFn = (scope, element, attrs, _, transclude) => transcl
       const testValue = beforeTest(value, attrs[name]);
 
       if (!(isFirstRun && testValue === undefined)) {
-        instance.set({ [name]: beforeSet(testValue) });
+        instance.setProps({ [name]: beforeSet(testValue) });
       }
 
       isFirstRun = false;

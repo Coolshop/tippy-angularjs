@@ -1,15 +1,11 @@
 {
   "name": "tippy-angularjs",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "license": "MIT",
-  "author": {
-    "name": "Nick Breaton",
-    "email": "nick@breaton.com",
-    "url": "https://nickbreaton.com"
-  },
+  "author": "coolshop",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nickbreaton/tippy-angularjs"
+    "url": "https://github.com/Coolshop/tippy-angularjs.git"
   },
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -27,12 +23,12 @@
     "angular": "^1.8.0",
     "parcel": "^1.12.4",
     "rimraf": "^2.6.3",
-    "tippy.js": "^3.4.1",
-    "typescript": "^3.3.1"
+    "tippy.js": "^6.2.7",
+    "typescript": "^4.0.5"
   },
   "peerDependencies": {
-    "tippy.js": "3.*",
-    "angular": "*"
+    "tippy.js": "6.*",
+    "angular": "1.*"
   },
   "dependencies": {
     "lodash.flatmap": "^4.5.0",
